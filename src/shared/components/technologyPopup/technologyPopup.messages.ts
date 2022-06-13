@@ -4,7 +4,7 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   github: {
     id: 'technologyPopup.github',
-    defaultMessage: 'Github',
+    defaultMessage: 'Documentation',
   },
   specification: {
     id: 'technologyPopup.specification',

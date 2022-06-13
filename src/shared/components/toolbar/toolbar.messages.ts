@@ -11,6 +11,6 @@ export default defineMessages({
   },
   teamLabel: {
     id: 'toolbar.teamLabel',
-    defaultMessage: 'Team',
+    defaultMessage: 'Discipline',
   },
 });
