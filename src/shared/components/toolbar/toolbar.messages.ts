@@ -3,11 +3,11 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   areaLabel: {
     id: 'toolbar.areaLabel',
-    defaultMessage: 'Area',
+    defaultMessage: 'Quadrant',
   },
   levelLabel: {
     id: 'toolbar.levelLabel',
-    defaultMessage: 'Level',
+    defaultMessage: 'Ring',
   },
   teamLabel: {
     id: 'toolbar.teamLabel',
