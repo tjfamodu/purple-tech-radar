@@ -62,13 +62,13 @@ export const Home = () => {
           {isDesktop ? (
             <Logo />
           ) : (
-            <Link to="https://apptension.com" withBorder={false}>
+            <Link to="https://fearless.tech" withBorder={false}>
               <Logo full={false} />
             </Link>
           )}
         </LogoWrapper>
         {isDesktop && (
-          <Link to="https://apptension.com" icon={ButtonIcon.OUT}>
+          <Link to="https://fearless.tech" icon={ButtonIcon.OUT}>
             <FormattedMessage {...messages.backToMainPageButton} />
           </Link>
         )}

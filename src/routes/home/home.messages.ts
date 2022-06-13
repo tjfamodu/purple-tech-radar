@@ -5,7 +5,7 @@ export default defineMessages({
   description: {
     id: 'home.description',
     defaultMessage:
-      'The radar will let you explore all of the technologies, methods, and tools used here at Apptension and learn more about them. You will also get to see the technologies we have on our radar (pun intended) and, hopefully, get inspired.',
+      'This radar will let you explore all of the technologies, methods, and tools used here at Fearless and learn more about them.',
   },
   exploreButton: {
     id: 'home.exploreButton',
@@ -13,6 +13,6 @@ export default defineMessages({
   },
   backToMainPageButton: {
     id: 'home.backToMainPageButton',
-    defaultMessage: 'Back to apptension.com',
+    defaultMessage: 'Back to fearless.tech',
   },
 });

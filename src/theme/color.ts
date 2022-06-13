@@ -21,6 +21,14 @@ export const schoolBusYellow = '#FFDE00';
 export const mineShaft2 = '#222222';
 export const dustyGray = '#999999';
 
+export const fearlessOrangeStandard = '#EE5340';
+export const fearlessOrangeFade = '#E57D6D';
+export const fearlessOrangeWash = '#F5CEC8';
+export const fearlessPurpleStandard = '#5C3977';
+export const fearlessPurpleFade = '#78638F';
+export const fearlessPurpleWash = '#CCC4D5';
+export const fearlessTealStandard = '008C95';
+
 export const gradient = `linear-gradient(255deg,${screaminGreen} -56.33%,rgba(66,242,114,0) 124.09%),${schoolBusYellow}`;
 export const shadowGradientBottom = `linear-gradient(-180deg, ${codGrayOpacity} 0, ${codGray} 100%);`;
 export const shadowGradientTop = `linear-gradient(180deg, ${codGray} 0, ${codGrayOpacity} 100%);`;

@@ -1,0 +1,91 @@
+label	ring	quadrant	team	_id	description	github
+Python 3	ref-4PTdcpW8i7rxcLKmda4UCB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	1	Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms. 	https://github.com/python/cpython	
+React	ref-4PTdcpW8i7rxcLKmda4UCB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	2	A javascript library for building user interfaces based on UI components. React can be used as a base in the development of single-page, mobile, or server-rendered applications with frameworks like Next.js. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.	https://github.com/facebook/react/	
+Typescript	ref-4PTdcpW8i7rxcLKmda4UCB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	3	Typescript is a strongly typed programming language that builds on Javascript	https://github.com/microsoft/TypeScript	
+Go	ref-4PTdcpW8i7rxcLKmda4UCB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	4	Go (also called Golang or Go language) is an statically typed, compiled programming language used for general purpose. It is syntactically similar to C, but with memory safety, garbage collection, structural typing,and CSP-style concurrency.	https://github.com/golang/go	
+VueJS	ref-4PTdcpW8i7rxcLKmda4UCB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	5	Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.	https://github.com/vuejs/core	
+Scala	ref-628HJQHinDOMr8BPkvWeAI	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	6	Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.	https://github.com/scala/scala	
+Kotlin	ref-O4flj2hZHHf2nHXaOC8nB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	7	Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React) or native code via LLVM (e.g., for native iOS apps sharing business logic with Android apps).	https://github.com/JetBrains/kotlin	
+Svelte	ref-O4flj2hZHHf2nHXaOC8nB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	8	Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members.Svelte is not a monolithic JavaScript library imported by applications: instead, Svelte compiles HTML templates to specialized code that manipulates the DOM directly, which may reduce the size of transferred files and give better client performance; application code is also processed by the compiler, inserting calls to automatically recompute data and re-render UI elements when the data they depend on is modified.This also avoids the overhead associated with runtime intermediate representations, such as virtual DOM, unlike traditional frameworks (such as React and Vue) which carry out the bulk of their work at runtime, i.e in the browser.	https://github.com/sveltejs/svelte	
+Rust	ref-O4flj2hZHHf2nHXaOC8nB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	9	Rust is a multi-paradigm, general-purpose programming language. It is designed for performance and safety, especially safe concurrency. Rust is known for enforcing memory safety — that is, that all references point to valid memory — without requiring the use of a garbage collector or reference counting like other memory-safe languages.Memory safety is enforced by a borrow checker, which tracks object lifetime and variable scope as references are passed throughout the program during compilation. Rust can be used for systems programming with mechanisms for low-level memory management, but also offers high-level features such as functional programming.	https://github.com/rust-lang/rust	
+Elixir	ref-O4flj2hZHHf2nHXaOC8nB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	10	Elixir is a functional, concurrent, general-purpose programming language that runs on the BEAM virtual machine which is also used to implement the Erlang programming language.Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications. Elixir also provides productive tooling and an extensible design.	https://github.com/elixir-lang/elixir	
+Julia	ref-O4flj2hZHHf2nHXaOC8nB	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	11	Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science	https://github.com/JuliaLang/julia	
+AngularJS	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	12	AngularJS was a JavaScript-based open-source front-end web framework for developing single-page applications. It was maintained mainly by Google and a community of individuals and corporations. It aimed to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications. As of January 1, 2022, Google no longer updates AngularJS to fix security, browser compatibility, or jQuery issues.	https://github.com/angular/angular.js?	
+Java/ Spring Boot	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	13			
+R	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	14			
+Python virtual environments	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	15			
+Ruby on Rails	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	16			
+PHP	ref-6DH88vXU71Ce3vnjcK2pUD	ref-7EkzpUqTd6TDmGYNkIEi9s	ref-EXgm9xr0CCjgXMNYuJWTs	17			
+Gitlab CI/CD	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	18			
+GitHub Actions	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	19			
+CircleCI	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	20			
+AWS API Gateway	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	21			
+AWS Codepipeline	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	22			
+Postman	ref-4PTdcpW8i7rxcLKmda4UCB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	23			
+Azure DevOps	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	24			
+Azure Functions	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	25			
+Apache Kafka	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	26			
+Apache Spark	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	27			
+Apache Flink	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	28			
+Insomnia	ref-628HJQHinDOMr8BPkvWeAI	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	29			
+Snowflake	ref-O4flj2hZHHf2nHXaOC8nB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	30			
+SageMaker	ref-O4flj2hZHHf2nHXaOC8nB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	31			
+DataRobot	ref-O4flj2hZHHf2nHXaOC8nB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	32			
+Neo4j	ref-O4flj2hZHHf2nHXaOC8nB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	33			
+Managed Kubernetes Core (EKS, AKS, GKE)	ref-O4flj2hZHHf2nHXaOC8nB	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	34			
+Jenkins	ref-6DH88vXU71Ce3vnjcK2pUD	ref-5FHPk2RoblMYcULARtfMHN	ref-EXgm9xr0CCjgXMNYuJWTs	35			
+Fairness Frameworks	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	36			
+Object-relational mapping (ORM)	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	37			
+Test Driven Development (TDD)	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	38			
+Context Driven Design	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	39			
+Riskstorming	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	40			
+Immutable Infrastructure	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	41			
+Pair Programming	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	42			
+Mob Programming	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	43			
+Serverless Containers	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	44			
+Serverless Functions	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	45			
+Zero Trust Architecture	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	46			
+Trunk Based Development	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	47			
+Mono Repo	ref-4PTdcpW8i7rxcLKmda4UCB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	48			
+Infrastructure as Code Testing	ref-628HJQHinDOMr8BPkvWeAI	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	49			
+Behavior Driven Development (BDD)	ref-628HJQHinDOMr8BPkvWeAI	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	50			
+MongoDB	ref-4PTdcpW8i7rxcLKmda4UCB	ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	51			
+TensorFlow	ref-4PTdcpW8i7rxcLKmda4UCB	ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	52			
+Terraform	ref-4PTdcpW8i7rxcLKmda4UCB	ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	53			
+Databricks	ref-4PTdcpW8i7rxcLKmda4UCB	ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	54			
+Jest	ref-4PTdcpW8i7rxcLKmda4UCB	ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	55			
+Random Reviewing	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	56			
+Automatic Semantic Versioning	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	57			
+Autogenerated Documentation	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	58			
+Automated Machine Learning (AutoML)	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	59			
+Machine Learning Model Operationalization Management (MLOps)	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	60			
+DataOps	ref-O4flj2hZHHf2nHXaOC8nB	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	61			
+Production data in test environments	ref-6DH88vXU71Ce3vnjcK2pUD	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	62			
+Defaulting to Single Page Application	ref-6DH88vXU71Ce3vnjcK2pUD	ref-1z20KYjpB6U1Li0bFMPAIv	ref-EXgm9xr0CCjgXMNYuJWTs	63			
+Swagger	ref-4PTdcpW8i7rxcLKmda4UCB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	64			
+Headless CMS	ref-4PTdcpW8i7rxcLKmda4UCB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	65			
+Snyk	ref-4PTdcpW8i7rxcLKmda4UCB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	66			
+Cypress	ref-4PTdcpW8i7rxcLKmda4UCB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	67			
+Liquibase	ref-628HJQHinDOMr8BPkvWeAI	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	68			
+Kubernetes	ref-628HJQHinDOMr8BPkvWeAI	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	69			
+Craft CMS	ref-628HJQHinDOMr8BPkvWeAI	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	70			
+Netlify CMS	ref-628HJQHinDOMr8BPkvWeAI	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	71			
+PyTorch	ref-628HJQHinDOMr8BPkvWeAI	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	72			
+Data Pipeline Tools (dpt, Airflow)	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	73			
+Storybook/ Chromatic	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	74			
+Prometheus/Grafana	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	75			
+Grype	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	76			
+Github Codespaces	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	77			
+Kubeflow	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	78			
+Gym 	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	79			
+Azure DataFactory	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	80			
+Distributed FileSystems (HDFs, CephFS, GlusterFS)	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	81			
+Selenium	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	82			
+Hygen	ref-O4flj2hZHHf2nHXaOC8nB	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	83			
+Drupal	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	84			
+Gatsby 	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	85			
+Cloudformation	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	86			
+Chef	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	87			
+Ansible	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	88			
+Notebook Tools (jupyterlab, rstudio)	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	89			
+Enzyme	ref-6DH88vXU71Ce3vnjcK2pUD	 ref-B4orjeov7Wv1ID33Vvn4s	ref-EXgm9xr0CCjgXMNYuJWTs	90			

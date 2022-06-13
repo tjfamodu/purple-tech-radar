@@ -1,8 +1,8 @@
 export const unsupportedPageContent = `
   <div class="container">
     <div class="navbar">
-      <a href="https://www.apptension.com/" class="logo">Apptension</a>
-      <a href="https://www.apptension.com/" class="exit">Back to apptension.com</a>
+      <a href="https://fearless.tech/" class="logo">Fearless</a>
+      <a href="https://fearless.tech/" class="exit">Back to fearless.tech</a>
     </div>
     <div class="content">
       <h1>Unsupported Browser</h1>

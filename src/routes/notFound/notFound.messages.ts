@@ -16,6 +16,6 @@ export default defineMessages({
   },
   backToMainPageButton: {
     id: 'notFound.backToMainPageButton',
-    defaultMessage: 'Back to apptension.com',
+    defaultMessage: 'Back to fearless.tech',
   },
 });
