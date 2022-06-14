@@ -1,4 +1,4 @@
-name: CI/CD
+name: Build and Deploy Tech Radar to S3
 on:
   push:
     branches:
@@ -17,6 +17,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: TruffleHog OSS
+        uses: trufflesecurity/trufflehog@v3.6.4
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
 
       - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
