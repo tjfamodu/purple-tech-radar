@@ -52,11 +52,11 @@
         __webpack_require__.d(__webpack_exports__, 'tundora', function () {
           return tundora;
         }),
-        __webpack_require__.d(__webpack_exports__, 'screaminGreen', function () {
-          return screaminGreen;
+        __webpack_require__.d(__webpack_exports__, 'purpleWash', function () {
+          return purpleWash;
         }),
-        __webpack_require__.d(__webpack_exports__, 'schoolBusYellow', function () {
-          return schoolBusYellow;
+        __webpack_require__.d(__webpack_exports__, 'purpleStandard', function () {
+          return purpleStandard;
         }),
         __webpack_require__.d(__webpack_exports__, 'mineShaft2', function () {
           return mineShaft2;
@@ -89,13 +89,13 @@
         scorpion = '#595959',
         silver = '#C2C2C2',
         tundora = '#444444',
-        screaminGreen = '#42F272',
-        schoolBusYellow = '#FFDE00',
+        purpleWash = '#42F272',
+        purpleStandard = '#FFDE00',
         mineShaft2 = '#222222',
         dustyGray = '#999999',
         gradient = 'linear-gradient(255deg,'
-          .concat(screaminGreen, ' -56.33%,rgba(66,242,114,0) 124.09%),')
-          .concat(schoolBusYellow),
+          .concat(purpleWash, ' -56.33%,rgba(66,242,114,0) 124.09%),')
+          .concat(purpleStandard),
         shadowGradientBottom = 'linear-gradient(-180deg, '.concat(codGrayOpacity, ' 0, ').concat(codGray, ' 100%);'),
         shadowGradientTop = 'linear-gradient(180deg, '.concat(codGray, ' 0, ').concat(codGrayOpacity, ' 100%);');
     },

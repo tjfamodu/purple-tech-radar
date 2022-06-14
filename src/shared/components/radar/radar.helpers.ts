@@ -292,20 +292,20 @@ export const renderTechnologies = ({ radar, technologies, rings }: RenderTechnol
     const blipDefs = blip.append('defs');
 
     const mainGradient = blipDefs.append('linearGradient').attr('id', 'mainGradient');
-    mainGradient.append('stop').attr('offset', '0%').attr('stop-color', color.schoolBusYellow).attr('stop-opacity', 1);
-    mainGradient.append('stop').attr('offset', '100%').attr('stop-color', color.screaminGreen).attr('stop-opacity', 1);
+    mainGradient.append('stop').attr('offset', '0%').attr('stop-color', color.purpleStandard).attr('stop-opacity', 1);
+    mainGradient.append('stop').attr('offset', '100%').attr('stop-color', color.purpleWash).attr('stop-opacity', 1);
 
     const diamondMainGradient = blipDefs.append('linearGradient').attr('id', 'diamondMainGradient');
     diamondMainGradient.attr('x1', '0%').attr('y1', '100%').attr('x2', '100%').attr('y2', '0%');
     diamondMainGradient
       .append('stop')
       .attr('offset', '0%')
-      .attr('stop-color', color.schoolBusYellow)
+      .attr('stop-color', color.purpleStandard)
       .attr('stop-opacity', 1);
     diamondMainGradient
       .append('stop')
       .attr('offset', '100%')
-      .attr('stop-color', color.screaminGreen)
+      .attr('stop-color', color.purpleWash)
       .attr('stop-opacity', 1);
 
     if (d.ring === 0) {
