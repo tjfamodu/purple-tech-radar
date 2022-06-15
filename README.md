@@ -1,10 +1,16 @@
-![Apptension Tech Radar](./public/images/og_image.png)
+![Fearless Tech Radar](./public/images/og_image.png)
+
+Based on https://github.com/apptension/tech-radar
 
 ## Overview
 
 Bootstrapped with [Create React App (by Apptension)](https://github.com/apptension/react-scripts-apptension).
 
-The Tech Radar is a tool to support production teams at Apptension in presenting in front of the clients and candidates what technologies, tools, and methods they use internally. It also allows to pick the best stacks for our future projects based on shared experience levels and trends we pursue.
+The Tech Radar is a tool that serves as a means to:
+
+- Align on tech in with the engineering herd
+- Determine where Fearless is going
+- Egalitarian influence of how we do what we do
 
 ![Filtered Radar](./images/radar.png)
 
@@ -14,33 +20,29 @@ The Tech Radar is a tool to support production teams at Apptension in presenting
 
 The Tech Radar is a list of technologies along with their assessment result presented as 4 rings with the following meanings:
 
-**Adopt** - Technologies we have high confidence in. Technologies with a usage culture in our production environment, low risk and recommended to be widely used.
+**Adopt** - These are technologies that we’re very confident can serve a particular purpose and on a large scale. These are low risk and recommended for wider use.
 
-**Trial** - Technologies that we have seen work with success in project work to solve a real problem; first serious usage experience that confirm benefits and can uncover limitations. Trial technologies are slightly more risky; some engineers in our organization walked this path and will share knowledge and experiences.
+**Trial** - We’ve successfully used these technologies to solve a real-world problem, discovering benefits but also uncovering certain limitations. Trial technologies are riskier. Technology should be investigated further before a wider adoption across Fearless.
 
-**Assess** - Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. Assess technologies have higher risks; they are often brand new and highly unproven in our organisation.
+**Assess** - Technologies in this ring are promising and have clear potential for us. It’s worth researching these further. Assess technologies have a higher risk. They’re often new and unproven within the company. These technologies should not be adopted without further evaluation.
 
-**Hold** - Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. Hold technologies should not be used for new projects, but usually can be continued for existing projects.
+**Hold** - These technologies aren’t yet worth further investment and should not be used for new projects. Hold technologies can usually, however, continue being used for existing projects when it’s too costly to migrate.
 
 ## Features
 
 - Technical Radar with technologies in 4 categories and 4 adoption levels
 - Search to filter out elements on the radar
-- Filtering by adoption levels and teams who use specific technologies/tools
+- Filtering by adoption levels and discipline who use specific technologies/tools
 - Details view with logo, description, alternatives and links
 - Mobile support
 
 ## Data source
 
-Apptension Tech Radar uses Contentful CMS for data storage and will not work locally right from the start as required keys are not provided in the source code.
+Fearless Tech Radar uses Contentful CMS for data storage and will not work locally right from the start as required keys are not provided in the source code.
 
-To connect your own Contentful space see `.env.example` file for required keys and `src/shared/hooks/useContentfulData.ts` along with `src/shared/services/api/contentful.ts` to see how we pull Contentful data currently.
-
-Or connect your own preferable CMS or other data source.
+To connect the Contentful space see `.env.example` file for required keys, which can be provided by admin.
 
 For reference of data models used in the tech radar see types defined in `src/shared/components/radar/radar.types.ts`.
-
-You can also import the data models into your own Contentful space with `contentful-cli` (see export file `contentful-export-2022-04-18.json`).
 
 ## Usage
 
@@ -73,7 +75,7 @@ You will also see any lint errors in the console.
 
 The tag version in the title is taken from **package.json** file.
 
-`"version": "2.0" => Tech Radar 2.0`
+`"version": "3.0" => Fearless Tech Radar 2.0`
 
 ### Other available scripts
 
