@@ -1,10 +1,8 @@
-![Fearless Tech Radar](./public/images/og_image.png)
-
-Based on https://github.com/apptension/tech-radar
+**Based on the [Apptension Tech Radar](https://github.com/apptension/tech-radar)**
 
 ## Overview
 
-Bootstrapped with [Create React App (by Apptension)](https://github.com/apptension/react-scripts-apptension).
+Bootstrapped with [Create React App](https://github.com/apptension/react-scripts-apptension).
 
 The Tech Radar is a tool that serves as a means to:
 
@@ -12,13 +10,9 @@ The Tech Radar is a tool that serves as a means to:
 - Determine where Fearless is going
 - Egalitarian influence of how we do what we do
 
-![Filtered Radar](./images/radar.png)
+## What is the Fearless Tech Radar?
 
-![Technology Details](./images/radar_tech.png)
-
-## What is the Tech Radar?
-
-The Tech Radar is a list of technologies along with their assessment result presented as 4 rings with the following meanings:
+The Fearless Tech Radar is a list of technologies along with their assessment result presented as 4 rings with the following meanings:
 
 **Adopt** - These are technologies that we’re very confident can serve a particular purpose and on a large scale. These are low risk and recommended for wider use.
 
