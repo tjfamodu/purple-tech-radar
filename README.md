@@ -44,7 +44,7 @@ To connect the Contentful space see `.env.example` file for required keys, which
 
 For reference of data models used in the tech radar see types defined in `src/shared/components/radar/radar.types.ts`.
 
-## Usage
+[cfimp](https://github.com/mitya33/cfimp) was used to import entries from CSV into contentful
 
 ### Node version
 
