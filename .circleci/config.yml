@@ -1,0 +1,48 @@
+version: 2.1
+orbs:
+  node: circleci/node@5.0.2
+  aws-s3: circleci/aws-s3@3.0.0
+jobs:
+  build:
+    docker:
+      - image: cimg/base:stable
+    environment:
+      REACT_APP_CONTENTFUL_SPACE_ID: $REACT_APP_CONTENTFUL_SPACE_ID
+      REACT_APP_CONTENTFUL_ACCESS_TOKEN: $REACT_APP_CONTENTFUL_ACCESS_TOKEN
+      REACT_APP_CONTENTFUL_ENVIRONMENT: $REACT_APP_CONTENTFUL_ENVIRONMENT
+      REACT_APP_CONTENTFUL_CONTENT_MANAGEMENT_API_PATH: $REACT_APP_CONTENTFUL_CONTENT_MANAGEMENT_API_PATH
+      REACT_APP_CONTENTFUL_CONTENT_MANAGEMENT_TOKEN: $REACT_APP_CONTENTFUL_CONTENT_MANAGEMENT_TOKEN
+    steps:
+      - checkout
+      - node/install:
+          install_yarn: true
+          node-version: '16.15'
+      - node/install-packages
+      - run: yarn build
+  deploy:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - checkout
+      - aws-s3/sync:
+          from: build
+          to: 's3://radar.fearless.tech'
+          arguments: |
+            --acl public-read \
+            --cache-control "max-age=86400 \
+            --delete"
+          overwrite: true
+          aws-access-key-id: $AWS_ACCESS_KEY_ID
+          aws-region: $AWS_REGION
+          aws-secret-access-key: $AWS_SECRET_ACCESS_KEY
+
+workflows:
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
